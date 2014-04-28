@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/telenor_bule"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/crop_image_layout"
+        android:alpha="1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/llBottonLayout"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:weightSum="4" >
+
+            <TextView
+                android:id="@+id/image_edit_textview"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@android:color/black"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:text="@string/rotate_adjust_your_photo"
+                android:textColor="@color/white"
+                android:textStyle="italic" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical" >
+
+                <com.abkibarmodisarkar.image.crop.CropImageView
+                    android:id="@+id/crop_image_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerInParent="true"
+                    android:scaleType="matrix" />
+
+                <ImageView
+                    android:id="@+id/party_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/a"
+                    android:contentDescription="@string/aap_"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@android:color/black"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white"
+                android:textStyle="normal"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llBottonLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <Button
+                android:id="@+id/discard_button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/save_button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

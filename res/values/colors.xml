@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="telenor_bule">#008FD4</color>
+    <color name="invoice_green">#7FA63F</color>
+    <color name="invoice_orange">#F47522</color>
+    <color name="header_background">#BDBDBD</color>
+    <color name="header_title">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#A4A4A4</color>
+    <color name="gray_ligter">#E6E6E6</color>
+    <color name="gray_lightest">#F8F8F8</color>
+    <color name="transparent_black_hex_5">#55000000</color>
+    <color name="transparent_black_hex_9">#99000000</color>
+    <color name="subs_text_header_gray">#707070</color>
+    <color name="subs_name_bg_color">#EFF1F1</color>
+    
+    <color name="emma_telenor_bule">#E21088C1</color>
+    <color name="emma_category_bg">#E2094B6B</color>
+
+    <!-- Usage colors -->
+    <color name="usage_data_green">#729C00</color>
+    <color name="usage_data_blue">#FF01A9DB</color>
+    <color name="usage_data_text_gray">#6e6e6e</color>
+    <color name="usage_data_text_black">#303030</color>
+    <color name="usage_data_slider_light_blue">#CCE9F6</color>
+    <color name="usage_data_slider_surf_limit">#B86F44</color>
+    <color name="usage_data_slider_surf_limit_orange">#FF5F00</color>
+
+    <!-- Profile Colors -->
+    <color name="profile_gray_divider">#E2E2E2</color>
+    <color name="profile_indicator_bg">#3A6F89</color>
+
+    <!-- Button colors -->
+    <color name="btn_blue_disable">#80c8ea</color>
+    <color name="btn_blue_normal">#008FD4</color>
+    <color name="btn_blue_pressed">#004c71</color>
+    
+    <color name="btn_gray_pressed">#727475</color>
+    <color name="btn_gray_normal">#E2E2E2</color>
+    <color name="btn_gray_disable">#E2E4E5</color>
+    <color name="btn_orange_normal">#E77A2C</color>
+    <color name="btn_orange_pressed">#7b4117</color>
+    
+    <color name="emma_faq_indicator">#094B6B</color>
+
+</resources>
